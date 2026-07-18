@@ -1,0 +1,13 @@
+{
+  "eventType": "START",
+  "job": {
+    "namespace": "food_pipeline",
+    "name": "openfoodfacts_ingestion"
+  },
+  "inputs": [
+    {"name": "openfoodfacts"}
+  ],
+  "outputs": [
+    {"name": "processed_openfoodfacts"}
+  ]
+}

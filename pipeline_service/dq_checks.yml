@@ -1,0 +1,6 @@
+checks for openfoodfacts:
+  - row_count > 0
+  - missing_count(product_name) = 0
+  - missing_count(brand) = 0
+  - min(energy_100g) >= 0
+  - duplicate_count(product_name) = 0

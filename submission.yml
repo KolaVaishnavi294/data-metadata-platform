@@ -1,0 +1,5 @@
+setup: docker-compose up -d --build
+
+run: docker-compose run pipeline python run_pipeline.py
+
+test: python tests/test_api.py

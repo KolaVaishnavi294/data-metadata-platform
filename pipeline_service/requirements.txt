@@ -1,0 +1,3 @@
+pandas
+requests
+openlineage-python
